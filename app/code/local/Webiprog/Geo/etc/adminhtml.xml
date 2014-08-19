@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <webiprog_geo translate="title" module="webiprog_geo">
+            <title>Geozones</title>
+            <sort_order>55</sort_order>
+            <action>adminhtml/geozone</action>
+        </webiprog_geo>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <webiprog_geo translate="title" module="webiprog_geo">
+                        <title>Geozones</title>
+                        <sort_order>0</sort_order>
+                    </webiprog_geo>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
